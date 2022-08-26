@@ -15,6 +15,7 @@
 p {
     margin: 2% 5%;
     color: #26abff;
+    font-size: 18px;
 }
 
 body {
@@ -60,7 +61,12 @@ body {
     top: 0;
     left: 0;
     bottom: 0;
-    right: 0;   
+    right: 0;
+}
+
+.color_pallete * {
+    font-family: 'Dynapuff', sans-serif;
+    font-weight: 200;
 }
 
 .color_group {
@@ -69,7 +75,7 @@ body {
     border: 2px solid #2565ae;
     box-shadow: 1px 1px 1px 0.5px rgba(37, 101, 174, 0.6);
     width: 100%;
-    cursor: pointer;
+    cursor: pointer;   
 }
 
 .color_group:hover {
@@ -89,28 +95,133 @@ body {
     transition: all .3s;
   }
 
-  /* Background colours of each box */
-  #electric_blue {
-    background: #ffffec;
-  }
+/* Background colours of each box */
+#electric_blue, #electric_blue_h2 {
+    background: #0492c2;
+    color: #ffe4c4;
+}
+  
+#hot_orange, #hot_orange_h2 {
+    background-color: #ff6422;
+    color: #1c1c1c;
+}
 
-  /* Colours of each circle */
-  #circle1 {
-    background-color: #373e98;
-  }
+#muted_green, #muted_green_h2 {
+    background-color: #b2d3c2;
+}
 
-  #circle2 {
-    background-color: #f16775;
-  }
+#lemon_lime, #lemon_lime_h2 {
+    background-color: #aef359;
+    color: #051094;
+}
 
-  #circle3 {
-    background-color: #fee36e;
-  }
+#jewel_tones, #jewel_tones_h2 {
+    background-color: #601a35;
+    color: #fa8128;
+}
 
-  #circle4 {
-    background-color: #ceb92c;
-  }
+/* Colours of each circle */
 
-  #circle5 {
+/* Circles for electric blue */
+#circle1 {
     background-color: #2a2a2a;
-  } 
+}
+
+#circle2 {
+    
+    background-color: #ceb92c;
+}
+
+#circle3 {
+    background-color: #fee36e;
+}
+
+#circle4 {
+    background-color: #f16775;
+}
+
+#circle5 {
+    background-color: #373e98;
+}
+
+/* Circles for hot orange */
+#circle6 {
+    background-color: #141414;
+}
+
+#circle7 {
+    background-color: #9e9e9e;
+}
+
+#circle8 {
+    background-color: #565656;
+}
+
+#circle9 {
+    background-color: #fba92c;
+}
+
+#circle10 {
+    background-color: #ffffff
+}
+/* Circles for lemon lime */
+#circle11 {
+    background-color: #c8b7a6;
+}
+
+#circle12 {
+    background-color: #7d94b5;
+}
+
+#circle13 {
+    background-color: #c29591;
+}
+
+#circle14 {
+    background-color: #703f37;
+}
+
+#circle15 {
+    background-color: #b6c199;
+}
+/* Circles for muted green */
+#circle16 {
+    background-color: #abd699;
+}
+
+#circle17 {
+ background-color: #ffe26a;
+}
+
+#circle18 {
+    background-color: #75c9b7;
+}
+
+#circle19 {
+    background-color: #c7ddcc;
+}
+
+#circle20 {
+    background-color: #16123f;
+}
+
+/* Circles for jewel tones */
+#circle21 {
+ background-color: #A96762;
+}
+
+#circle22 {
+    background-color: #2F5C8F;
+}
+
+#circle23 {
+    background-color: #d85c27;
+}
+
+#circle24 {
+    background-color: #b999be;
+}
+
+#circle25 {
+    background-color: #14365d;
+}
