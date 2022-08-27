@@ -12,16 +12,24 @@
     color: #2565ae;
 }
 
-p {
-    margin: 2% 5%;
-    color: #26abff;
-    font-size: 18px;
-}
-
 body {
     display: flex;
 }
 
+ul {
+    list-style-position: inside;
+    text-align: center;
+    line-height: 25px;
+   
+}
+
+ul li {
+    font-size: 14px;
+    list-style-type: circle;
+    display: list-item;
+ }
+
+ /* Container for all the divs on the right hand side */
 .color_change {
     border: 1px solid red;
     width: 75%;
@@ -29,7 +37,29 @@ body {
     left: 25%;
 }
 
-/* Header */
+/* Aligns the bottom two divs on the right hand side horizontally */
+.horizontal_div {
+    display: flex;
+}
+
+.intro_para p {
+    margin: 2% 5%;
+    color: #26abff;
+    font-size: 18px;
+}
+
+.bulletin {
+    border: 1px solid rgba(37, 101, 174, 0.6);
+    width: 50%;
+}
+
+.website_links {
+    width: 50%;
+    border: 1px solid rgba(37, 101, 174, 0.6);
+}
+
+
+/* Navbar header */
 .navbar {
     height: 70px;
     padding-top: 5px;
